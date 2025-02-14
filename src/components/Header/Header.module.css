@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'F1-Font';
+    src: url('/F1Font/Formula1-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbarNav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-left: 0 !important;
+}
+
+.navBar {
+    display: block;
+    align-items: center;
+    background-color: rgb(225 6 0);
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.navLink {
+    color: white;
+    margin: 0 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    height: 100%;
+    margin-top: 35px;
+    font-family: 'F1-Font', sans-serif !important;
+    font-size: 16px !important;
+}
+
+.navItem {
+    height: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navItem:hover {
+    background-color: black;
+    color: white;
+}
+
+.navBrand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.navBrand a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}

@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Titillium';
+    src: url('/Titillium/Titillium-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Titillium-light';
+    src: url('/Titillium/Titillium-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 15px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.raceImage img {
+    height: 80px;
+}
+
+.table th, .table td {
+    padding: 1.25rem;
+}
+
+#special {
+    color: #000000;
+    font-family: 'Titillium', sans-serif;
+}
+
+#specialfont {
+    color: #000000;
+    font-family: 'Titillium-light', sans-serif;
+    vertical-align: middle;
+}
+
+.action {
+    text-decoration: none;
+    color: #000000;
+}
+
+.action:hover {
+    color: rgb(225 6 0);
+}

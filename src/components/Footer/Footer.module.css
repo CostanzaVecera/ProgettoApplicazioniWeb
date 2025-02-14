@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'F1-Font';
+    src: url('/F1Font/Formula1-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+    background: #15151e;
+    padding: 20px 0;
+}
+
+nav {
+    margin-left: 100px;
+    font-family: 'F1-Font', sans-serif !important;
+    font-size: 16px;
+    height: 60px;
+    padding: 0;
+}
+
+#copyright {
+    border-bottom: 10px solid #474a51;
+    border-right: 10px solid #474a51;
+    border-radius: 0 0 15px 0;
+    width: 750px;
+}
+
+nav ul {
+    width: 750px;
+}
+
+nav li {
+    margin-right: 150px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+nav li a .underline {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    background-color: rgb(225 6 0);
+    transition: width 0.3s ease;
+}
+
+nav li a:hover .underline {
+    width: 100%;
+}
+
+img {
+    height: 60px;
+    width: auto;
+}

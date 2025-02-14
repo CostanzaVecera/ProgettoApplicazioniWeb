@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'F1Font-regular';
+    src: url('/F1Font/Formula1-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+}
+
+h1 {
+    font-size: 42px;
+    color:#000000;
+    font-family: 'F1-Font', sans-serif;
+}
+
+h2 {
+    font-size: 18px;
+    color:#000000;
+    font-family: 'F1-Font', sans-serif;
+}

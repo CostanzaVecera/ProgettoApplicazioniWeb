@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'F1-Font';
+    src: url('/F1Font/Formula1-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Titillium-light';
+    src: url('/Titillium/Titillium-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.racebanner {
+    position: relative;
+    overflow: hidden;
+}
+
+.raceimage {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.raceinfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#title {
+    color: white;
+    font-size: 62px;
+    font-family: 'F1-Font', sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 32px;
+    font-family: 'F1-Font', sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+
+input[type="checkbox"]:checked {
+    background-color: rgb(225 6 0);
+    border-color: rgb(225 6 0);
+}
+
+label {
+    font-family: 'Titillium-light', sans-serif;
+    font-size: 15px;
+}

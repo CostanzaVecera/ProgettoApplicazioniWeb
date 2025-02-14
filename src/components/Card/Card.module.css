@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'F1-Font-bold';
+    src: url('/F1Font/Formula1-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'F1-Font';
+    src: url('/F1Font/Formula1-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.card {
+    border-radius: 0 15px 0 0;
+    transition: transform 0.2s ease-in-out;
+    height: 250px;
+    width: 300px;
+    margin: 16px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: none;
+    border-bottom: none;
+    padding: 16px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-top: 2px solid rgb(225 6 0);
+    border-right: 2px solid rgb(225 6 0);
+}
+
+.cardbody {
+    padding: 6px;
+}
+
+.image {
+    height: 150px;
+}
+
+.title {
+    font-size: 18px;
+    font-family: 'F1-Font-bold', sans-serif;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.textcard {
+    font-size: 12px;
+    font-family: 'F1-Font', sans-serif;
+    color: #000000;
+}
