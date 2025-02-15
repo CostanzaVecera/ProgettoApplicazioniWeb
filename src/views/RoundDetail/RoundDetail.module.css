@@ -39,13 +39,6 @@
     text-transform: uppercase;
 }
 
-h2 {
-    font-size: 32px;
-    font-family: 'F1-Font', sans-serif;
-    color: #000000;
-    font-weight: bold;
-}
-
 input[type="checkbox"]:checked {
     background-color: rgb(225 6 0);
     border-color: rgb(225 6 0);

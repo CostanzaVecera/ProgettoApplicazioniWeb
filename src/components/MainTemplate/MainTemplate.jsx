@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer.jsx"
 import Header from "../Header/Header.jsx"
 
 function MainTemplate(props) {
-    const {children, footerCourseName, footerCourseLink, navItems, logo} = props;
+    const {children, navItems, logo} = props;
 
     return (
         <div className="d-flex flex-column min-vh-100">
@@ -15,17 +15,13 @@ function MainTemplate(props) {
                 {children}
             </main>
             <Footer
-                courseName={footerCourseName}
-                courseLink={footerCourseLink}
                 navItems={navItems} />
         </div>
     );
 }
 
 MainTemplate.propTypes = {
-    children: PropTypes.node.isRequired,  // Valida che `children` sia un nodo React
-    footerCourseName: PropTypes.string.isRequired,
-    footerCourseLink: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
     navItems: PropTypes.arrayOf(
         PropTypes.shape({
             url: PropTypes.string.isRequired,

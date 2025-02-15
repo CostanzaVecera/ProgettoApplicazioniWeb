@@ -19,8 +19,7 @@ function App() {
             <MainTemplate
                 navItems={nav}
                 logo={Logo}
-                footerCourseLink="https://elearning.unimib.it/course/view.php?id=51512"
-                footerCourseName="Applicazioni Web: Progettazione e Sviluppo">
+                >
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/Season2024" element={<Season2024 />} />
